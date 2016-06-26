@@ -1,0 +1,22 @@
+{
+  "name": "ng2-xeditable-text",
+  "version": "1.0.0",
+  "build": "rm -rf lib && tsc -p src",
+  "description": "xeditable textfield",
+  "main": "ng2-xeditable-text.js",
+  "repository": {
+    "type": "git",
+    "url": "ng2-xeditable-text"
+  },
+  "scripts":{ "postinstall": "typings install"},
+  "keywords": [
+    "angular2",
+    "angular",
+    "xeditable",
+    "x-editable",
+    "text"
+  ],
+  "typings": "./ng2-xeditable-text.d.ts",
+  "author": "Matthieu Drula",
+  "license": "MIT"
+}
